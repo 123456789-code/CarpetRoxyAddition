@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "carpet_roxy_addition",
+	"version": "${version}",
+	"name": "Carpet Roxy Addition",
+	"description": "Wang125510's carpet addition",
+	"authors": [
+		"Wang125510"
+	],
+	"contact": {
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/carpet_roxy_addition/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.Wang125510.ROXY.CarpetRoxyAddition"
+		],
+		"client": [
+			"com.Wang125510.ROXY.CarpetRoxyAdditionClient"
+		],
+		"fabric-datagen": [
+			"com.Wang125510.ROXY.CarpetRoxyAdditionDataGenerator"
+		]
+	},
+	"mixins": [
+		"carpet_roxy_addition.mixins.json",
+		{
+			"config": "carpet_roxy_addition.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

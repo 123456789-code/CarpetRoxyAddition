@@ -1,0 +1,6 @@
+{
+	"carpet.rule.instantMining.name": "instant mining",
+	"carpet.rule.instantMining.desc": "you can mine everything instantly",
+	"carpet.rule.alwaysSilkTouch.name": "always silk touch",
+	"carpet.rule.alwaysSilkTouch.desc": "you can silk touch everything with out enchanted tools"
+}
