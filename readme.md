@@ -20,6 +20,14 @@
 *   **你的手拥有精准采集附魔**
 *   **默认值**: `false`
 
+### 高亮物品实体 (highlightItemEntity)
+*   **赋予物品实体发光效果**
+*   **默认值**: `false`
+
+### 地狱门创建白名单 (createNetherPortalWhitelist )
+*   **设置什么实体穿过地狱门时可以创建地狱门**
+*   **默认值**: `Anything`
+
 ## 🤝 贡献代码流程
 我们欢迎 Pull Requests (PR)！贡献流程通常如下：
 1.  Fork 本项目仓库。
