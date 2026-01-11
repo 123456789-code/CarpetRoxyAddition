@@ -27,4 +27,16 @@ public class Rules {
 			options = {"true", "false"}
 	)
 	public static boolean alwaysSilkTouch = false;
+
+	@Rule(
+			categories = {ROXY, SURVIVAL},
+			options = {"true", "false"}
+	)
+	public static boolean highlightItemEntity = false;
+
+	@Rule(
+			categories = {ROXY, SURVIVAL},
+			options = {"NULL", "Player", "Player&TNT", "Anything"}
+	)
+	public static String createNetherPortalWhitelist = "Anything";
 }

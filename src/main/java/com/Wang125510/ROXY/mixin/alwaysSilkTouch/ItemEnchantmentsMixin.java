@@ -1,4 +1,4 @@
-package com.Wang125510.ROXY.mixin;
+package com.Wang125510.ROXY.mixin.alwaysSilkTouch;
 
 import com.Wang125510.ROXY.Rules;
 import net.minecraft.core.Holder;

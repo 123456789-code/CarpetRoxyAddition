@@ -3,14 +3,17 @@
 	"package": "com.Wang125510.ROXY.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"PlayerMixin",
-		"ItemEnchantmentsMixin",
-		"IceBlockMixin"
+		"instantMining.PlayerMixin",
+		"alwaysSilkTouch.ItemEnchantmentsMixin",
+		"alwaysSilkTouch.IceBlockMixin",
+		"highlightItemEntity.EntityMixin",
+		"createNetherPortalWhitelist.NetherPortalBlockMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
 	},
 	"overwrites": {
 		"requireAnnotations": true
-	}
+	},
+	"accessWidener": "carpet_roxy_addition.accesswidener"
 }

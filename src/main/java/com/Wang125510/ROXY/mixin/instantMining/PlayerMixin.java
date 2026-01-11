@@ -1,4 +1,4 @@
-package com.Wang125510.ROXY.mixin;
+package com.Wang125510.ROXY.mixin.instantMining;
 
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.entity.player.Player;
@@ -11,11 +11,7 @@ import com.Wang125510.ROXY.Rules;
 
 @Mixin(Player.class)
 public class PlayerMixin {
-	@Inject(
-			method = "getDestroySpeed",
-			at = @At("RETURN"),
-			cancellable = true
-	)
+	@Inject(method = "getDestroySpeed", at = @At("RETURN"), cancellable = true )
 	private void instantMining(BlockState block, CallbackInfoReturnable<Float> cir) {
 		if (Rules.instantMining) {
 			cir.setReturnValue(Float.MAX_VALUE / 10.0f); // 使用稍小的值避免溢出

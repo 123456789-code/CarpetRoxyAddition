@@ -3,6 +3,8 @@ package com.Wang125510.ROXY;
 import carpet.CarpetExtension;
 import carpet.CarpetServer;
 import carpet.api.settings.SettingsManager;
+import com.Wang125510.ROXY.RunPerTick.RunPerTick;
+import net.minecraft.server.MinecraftServer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import java.util.Map;
@@ -27,6 +29,11 @@ public class CarpetExtensionStarting implements CarpetExtension {
 		settingsManager = new SettingsManager(CarpetExtensionStarting.getInstance().version(), MOD_ID, "Carpet Roxy Addition");
 		CarpetServer.settingsManager.parseSettingsClass(Rules.class);
 		LOGGER.info("Carpet Roxy Addition rules initialized");
+	}
+
+	@Override
+	public void onTick(MinecraftServer server) {
+		RunPerTick.runPerTick(server);
 	}
 
 	@Override

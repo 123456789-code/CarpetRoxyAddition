@@ -2,5 +2,9 @@
 	"carpet.rule.instantMining.name": "瞬间挖掘",
 	"carpet.rule.instantMining.desc": "瞬间挖掘任意可挖掘方块",
 	"carpet.rule.alwaysSilkTouch.name": "永久精准采集",
-	"carpet.rule.alwaysSilkTouch.desc": "你的手拥有精准采集附魔"
+	"carpet.rule.alwaysSilkTouch.desc": "你的手拥有精准采集附魔",
+	"carpet.rule.highlightItemEntity.name": "高亮物品实体",
+	"carpet.rule.highlightItemEntity.desc": "赋予物品实体发光效果",
+	"carpet.rule.createNetherPortalWhitelist.name": "创建地狱门白名单",
+	"carpet.rule.createNetherPortalWhitelist.desc": "设置什么实体穿过地狱门时可以创建地狱门"
 }
