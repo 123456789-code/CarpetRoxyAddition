@@ -6,5 +6,7 @@
 	"carpet.rule.highlightItemEntity.name": "highlight item entities",
 	"carpet.rule.highlightItemEntity.desc": "give item entities glowing effect",
 	"carpet.rule.createNetherPortalWhitelist.name": "create nether portal whitelist",
-	"carpet.rule.createNetherPortalWhitelist.desc": "choose what can create nether portals"
+	"carpet.rule.createNetherPortalWhitelist.desc": "choose what can create nether portals",
+	"carpet.rule.neverKillNamedEntity.name": "never kill named entities",
+	"carpet.rule.neverKillNamedEntity.desc": "command \"/kill\" will not kill named entities"
 }

@@ -7,7 +7,8 @@
 		"alwaysSilkTouch.ItemEnchantmentsMixin",
 		"alwaysSilkTouch.IceBlockMixin",
 		"highlightItemEntity.EntityMixin",
-		"createNetherPortalWhitelist.NetherPortalBlockMixin"
+		"createNetherPortalWhitelist.NetherPortalBlockMixin",
+		"neverKillNamedEntity.KillCommandMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

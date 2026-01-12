@@ -39,4 +39,10 @@ public class Rules {
 			options = {"NULL", "Player", "Player&TNT", "Anything"}
 	)
 	public static String createNetherPortalWhitelist = "Anything";
+
+	@Rule(
+			categories = {ROXY, SURVIVAL},
+			options = {"true", "false"}
+	)
+	public static boolean neverKillNamedEntity = false;
 }

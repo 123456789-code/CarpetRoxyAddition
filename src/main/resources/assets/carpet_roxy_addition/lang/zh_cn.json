@@ -6,5 +6,7 @@
 	"carpet.rule.highlightItemEntity.name": "高亮物品实体",
 	"carpet.rule.highlightItemEntity.desc": "赋予物品实体发光效果",
 	"carpet.rule.createNetherPortalWhitelist.name": "地狱门创建白名单",
-	"carpet.rule.createNetherPortalWhitelist.desc": "设置什么实体穿过地狱门时可以创建地狱门"
+	"carpet.rule.createNetherPortalWhitelist.desc": "设置什么实体穿过地狱门时可以创建地狱门",
+	"carpet.rule.neverKillNamedEntity.name": "禁止kill指令杀死命名实体",
+	"carpet.rule.neverKillNamedEntity.desc": "你也不想刷铁机的掠夺者被kill吧"
 }
