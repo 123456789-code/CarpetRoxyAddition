@@ -1,10 +1,14 @@
-# [项目名称] - Minecraft Carpet 扩展
+# Carpet Roxy Addition
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.11-<00AA00>.svg?logo=minecraft)](https://www.minecraft.net/)
 [![Carpet Mod](https://img.shields.io/badge/Carpet%20Mod-1.4.x--latest-8B4513)](https://github.com/gnembon/fabric-carpet)
 
-这是 Wang125510 的 Minecraft Carpet Mod 扩展。
+这是 Wang125510 的 Minecraft Carpet Mod 扩展，在
+[Github](https://github.com/123456789-code/CarpetRoxyAddition)
+和
+[Modrinth](https://modrinth.com/mod/carpet-roxy-addition)
+上发布
 
 ## ✨ 目前支持的Minecraft版本
 - 1.21.11
