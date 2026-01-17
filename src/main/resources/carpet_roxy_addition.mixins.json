@@ -8,13 +8,13 @@
 		"alwaysSilkTouch.IceBlockMixin",
 		"highlightItemEntity.EntityMixin",
 		"createNetherPortalWhitelist.NetherPortalBlockMixin",
-		"neverKillNamedEntity.KillCommandMixin"
+		"neverKillNamedEntity.KillCommandMixin",
+		"tradeWithoutXp.VillagerMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
 	},
 	"overwrites": {
 		"requireAnnotations": true
-	},
-	"accessWidener": "carpet_roxy_addition.accesswidener"
+	}
 }

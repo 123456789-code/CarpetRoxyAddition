@@ -23,6 +23,7 @@
 ### 高亮物品实体 (highlightItemEntity)
 *   **赋予物品实体发光效果**
 *   **默认值**: `false`
+*   **目前不可用**
 
 ### 地狱门创建白名单 (createNetherPortalWhitelist )
 *   **设置什么实体穿过地狱门时可以创建地狱门**
@@ -30,6 +31,10 @@
 
 ### 禁止kill指令杀死命名实体 (neverKillNamedEntity)
 *   **让kill指令不会杀死命名的生物，比如刷铁机里的掠夺者**
+*   **默认值**: `false`
+
+### 村民交易不产生经验 (tradeWithoutXp)
+*   **村民交易不会再产生讨厌的经验球**
 *   **默认值**: `false`
 
 ## 🤝 贡献代码流程

@@ -28,11 +28,11 @@ public class Rules {
 	)
 	public static boolean alwaysSilkTouch = false;
 
-	@Rule(
-			categories = {ROXY, SURVIVAL},
-			options = {"true", "false"}
-	)
-	public static boolean highlightItemEntity = false;
+//	@Rule(
+//			categories = {ROXY, SURVIVAL},
+//			options = {"true", "false"}
+//	)
+//	public static boolean highlightItemEntity = false;
 
 	@Rule(
 			categories = {ROXY, SURVIVAL},
@@ -45,4 +45,10 @@ public class Rules {
 			options = {"true", "false"}
 	)
 	public static boolean neverKillNamedEntity = false;
+
+	@Rule(
+			categories = {ROXY, SURVIVAL},
+			options = {"true", "false"}
+	)
+	public static boolean tradeWithoutXp = false;
 }

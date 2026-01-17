@@ -10,13 +10,13 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(Entity.class)
 public class EntityMixin {
-	@Inject(method = "hasGlowingTag", at = @At("HEAD"), cancellable = true)
-	private void alwaysHasGlowingTag(CallbackInfoReturnable<Boolean> cir) {
-		Entity self = (Entity)(Object)this;
-
-		if (Rules.highlightItemEntity && (self instanceof ItemEntity)) {
-			cir.setReturnValue(true);
-			cir.cancel();
-		}
-	}
+//	@Inject(method = "hasGlowingTag", at = @At("HEAD"), cancellable = true)
+//	private void alwaysHasGlowingTag(CallbackInfoReturnable<Boolean> cir) {
+//		Entity self = (Entity)(Object)this;
+//
+//		if (Rules.highlightItemEntity && (self instanceof ItemEntity)) {
+//			cir.setReturnValue(true);
+//			cir.cancel();
+//		}
+//	}
 }
