@@ -51,4 +51,10 @@ public class Rules {
 			options = {"true", "false"}
 	)
 	public static boolean tradeWithoutXp = false;
+
+	@Rule(
+			categories = {ROXY, SURVIVAL},
+			options = {"true", "false"}
+	)
+	public static boolean weatherNeverCreateSnow = false;
 }

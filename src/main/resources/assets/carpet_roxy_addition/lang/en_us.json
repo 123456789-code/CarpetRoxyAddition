@@ -10,5 +10,7 @@
 	"carpet.rule.neverKillNamedEntity.name": "never kill named entities",
 	"carpet.rule.neverKillNamedEntity.desc": "command \"/kill\" will not kill named entities",
 	"carpet.rule.tradeWithoutXp.name": "trade without Xp",
-	"carpet.rule.tradeWithoutXp.desc": "trade never generate Xp balls"
+	"carpet.rule.tradeWithoutXp.desc": "trade never generate Xp balls",
+	"carpet.rule.weatherNeverCreateSnow.name": "weather never create snow",
+	"carpet.rule.weatherNeverCreateSnow.desc": "snowing weather doesn't create snow"
 }

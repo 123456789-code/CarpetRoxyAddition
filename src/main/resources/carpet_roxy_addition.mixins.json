@@ -9,7 +9,8 @@
 		"highlightItemEntity.EntityMixin",
 		"createNetherPortalWhitelist.NetherPortalBlockMixin",
 		"neverKillNamedEntity.KillCommandMixin",
-		"tradeWithoutXp.VillagerMixin"
+		"tradeWithoutXp.VillagerMixin",
+		"weatherNeverCreateSnow.ServerLevelMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
