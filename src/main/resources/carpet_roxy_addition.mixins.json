@@ -6,7 +6,6 @@
 		"instantMining.PlayerMixin",
 		"alwaysSilkTouch.ItemEnchantmentsMixin",
 		"alwaysSilkTouch.IceBlockMixin",
-		"highlightItemEntity.EntityMixin",
 		"createNetherPortalWhitelist.NetherPortalBlockMixin",
 		"neverKillNamedEntity.KillCommandMixin",
 		"tradeWithoutXp.VillagerMixin",
