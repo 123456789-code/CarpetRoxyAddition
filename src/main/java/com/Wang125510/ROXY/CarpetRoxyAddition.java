@@ -5,9 +5,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class CarpetRoxyAddition implements ModInitializer {
-	public static final String MOD_ID = "carpet_roxy_addition";
-
-	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+	private static final String MOD_ID = "carpet_roxy_addition";
+	private static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
 	public void onInitialize() {

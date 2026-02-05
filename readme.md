@@ -27,7 +27,7 @@
 ### 高亮物品实体 (highlightItemEntity)
 *   **赋予物品实体发光效果**
 *   **默认值**: `false`
-*   **目前不可用**
+*   **已迁移至[客户端](https://github.com/123456789-code/RoxyClient)**
 
 ### 地狱门创建白名单 (createNetherPortalWhitelist )
 *   **设置什么实体穿过地狱门时可以创建地狱门**

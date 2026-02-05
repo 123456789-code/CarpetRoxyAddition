@@ -10,8 +10,8 @@ import org.slf4j.LoggerFactory;
 import java.util.Map;
 
 public class CarpetExtensionStarting implements CarpetExtension {
-	public static final String MOD_ID = CarpetRoxyAddition.getModId();
-	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+	private static final String MOD_ID = CarpetRoxyAddition.getModId();
+	private static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 	public static SettingsManager settingsManager;
 	private static final CarpetExtensionStarting INSTANCE = new CarpetExtensionStarting();
 
