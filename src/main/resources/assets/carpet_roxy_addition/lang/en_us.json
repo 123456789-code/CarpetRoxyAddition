@@ -10,5 +10,7 @@
 	"carpet.rule.tradeWithoutXp.name": "trade without Xp",
 	"carpet.rule.tradeWithoutXp.desc": "trade never generate Xp balls",
 	"carpet.rule.weatherNeverCreateSnow.name": "weather never create snow",
-	"carpet.rule.weatherNeverCreateSnow.desc": "snowing weather doesn't create snow"
+	"carpet.rule.weatherNeverCreateSnow.desc": "snowing weather doesn't create snow",
+	"carpet.rule.deletePlayerCommand.name": "delete player files command",
+	"carpet.rule.deletePlayerCommand.desc": "a command to delete player files using /player <name> delete"
 }

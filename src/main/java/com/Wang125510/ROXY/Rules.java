@@ -51,4 +51,10 @@ public class Rules {
 			options = {"true", "false"}
 	)
 	public static boolean weatherNeverCreateSnow = false;
+
+	@Rule(
+			categories = {ROXY},
+			options = {"true", "false"}
+	)
+	public static boolean deletePlayerCommand = false;
 }

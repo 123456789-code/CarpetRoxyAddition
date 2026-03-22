@@ -2,6 +2,7 @@ package com.Wang125510.ROXY.command;
 
 import carpet.CarpetSettings;
 import carpet.utils.CommandHelper;
+import com.Wang125510.ROXY.Rules;
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.arguments.StringArgumentType;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
@@ -30,7 +31,7 @@ public class DeletePlayerCommand{
 
 	public static void register(CommandDispatcher<CommandSourceStack> dispatcher) {
 		LiteralArgumentBuilder<CommandSourceStack> command = literal("player")
-			.requires((player) -> CommandHelper.canUseCommand(player, CarpetSettings.commandPlayer))
+			.requires((player) -> CommandHelper.canUseCommand(player, CarpetSettings.commandPlayer) && Rules.deletePlayerCommand)
 			.then(argument("player", StringArgumentType.word())
 				.then(literal("delete").executes(DeletePlayerCommand::execute)));
 		dispatcher.register(command);
