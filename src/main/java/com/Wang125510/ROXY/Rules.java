@@ -17,6 +17,12 @@ public class Rules {
 	public static final String CLIENT = "client";
 
 	@Rule(
+			categories = {ROXY},
+			options = {"true", "false"}
+	)
+	public static boolean i_love_roxy = false;
+
+	@Rule(
 			categories = {ROXY, SURVIVAL},
 			options = {"true", "false"}
 	)
@@ -57,4 +63,10 @@ public class Rules {
 			options = {"true", "false"}
 	)
 	public static boolean deletePlayerCommand = false;
+
+	@Rule(
+			categories = {ROXY},
+			options = {"true", "false"}
+	)
+	public static boolean showRuleUpdate = false;
 }

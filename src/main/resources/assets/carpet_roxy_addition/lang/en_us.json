@@ -1,4 +1,6 @@
 {
+	"carpet.rule.i_love_roxy.name": "Join Roxyism!",
+	"carpet.rule.i_love_roxy.desc": "this is a test rule",
 	"carpet.rule.instantMining.name": "instant mining",
 	"carpet.rule.instantMining.desc": "you can mine everything instantly",
 	"carpet.rule.alwaysSilkTouch.name": "always silk touch",
@@ -12,5 +14,7 @@
 	"carpet.rule.weatherNeverCreateSnow.name": "weather never create snow",
 	"carpet.rule.weatherNeverCreateSnow.desc": "snowing weather doesn't create snow",
 	"carpet.rule.deletePlayerCommand.name": "delete player files command",
-	"carpet.rule.deletePlayerCommand.desc": "a command to delete player files using /player <name> delete"
+	"carpet.rule.deletePlayerCommand.desc": "a command to delete player files using /player <name> delete",
+	"carpet.rule.showRuleUpdate.name": "show carpet rule updates",
+	"carpet.rule.showRuleUpdate.desc": "tell you what carpet additions has updated"
 }

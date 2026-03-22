@@ -1,5 +1,7 @@
 package com.Wang125510.ROXY;
 
+import com.Wang125510.ROXY.config.ConfigManager;
+import com.Wang125510.ROXY.other.showRuleUpdate;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,7 +21,11 @@ public class CarpetRoxyAddition implements ModInitializer {
 
 		CarpetExtensionStarting.init();
 
+		ConfigManager.initialize();
+
 		LOGGER.info("Carpet Roxy Addition initialized");
+
+		showRuleUpdate.setup();
 	}
 
 	public static String getModId() {
