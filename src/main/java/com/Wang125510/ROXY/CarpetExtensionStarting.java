@@ -3,11 +3,16 @@ package com.Wang125510.ROXY;
 import carpet.CarpetExtension;
 import carpet.CarpetServer;
 import carpet.api.settings.SettingsManager;
-import com.Wang125510.ROXY.RunPerTick.RunPerTick;
+import com.mojang.brigadier.CommandDispatcher;
+import net.minecraft.commands.CommandBuildContext;
+import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.server.MinecraftServer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import java.util.Map;
+
+import com.Wang125510.ROXY.RunPerTick.RunPerTick;
+import com.Wang125510.ROXY.command.DeletePlayerCommand;
 
 public class CarpetExtensionStarting implements CarpetExtension {
 	private static final String MOD_ID = CarpetRoxyAddition.getModId();
@@ -34,6 +39,11 @@ public class CarpetExtensionStarting implements CarpetExtension {
 	@Override
 	public void onTick(MinecraftServer server) {
 		RunPerTick.runPerTick(server);
+	}
+
+	@Override
+	public void registerCommands(CommandDispatcher<CommandSourceStack> dispatcher, CommandBuildContext commandBuildContext) {
+		DeletePlayerCommand.register(dispatcher);
 	}
 
 	@Override
