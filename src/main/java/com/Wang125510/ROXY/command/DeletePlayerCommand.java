@@ -2,6 +2,7 @@ package com.Wang125510.ROXY.command;
 
 import carpet.CarpetSettings;
 import carpet.utils.CommandHelper;
+import com.Wang125510.ROXY.CarpetRoxyAddition;
 import com.Wang125510.ROXY.Rules;
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.arguments.StringArgumentType;
@@ -13,6 +14,8 @@ import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.level.storage.LevelResource;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -25,6 +28,9 @@ import static net.minecraft.commands.Commands.argument;
 import static net.minecraft.commands.Commands.literal;
 
 public class DeletePlayerCommand{
+	private static final String MOD_ID = CarpetRoxyAddition.getModId();
+	private static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+
 	// 两步验证请求存储，key = 请求者的 UUID，value = 待删除玩家名 + 过期时间
 	private static final Map<UUID, PendingDelete> pendingRequests = new ConcurrentHashMap<>();
 	private static final long EXPIRE_TIME_MS = 30_000; // 30秒过期
@@ -134,6 +140,7 @@ public class DeletePlayerCommand{
 			Files.deleteIfExists(path);
 			return true;
 		} catch (IOException e) {
+			LOGGER.warn("Failed to delete {}", path, e);
 			return false;
 		}
 	}
