@@ -69,4 +69,10 @@ public class Rules {
 			options = {"true", "false"}
 	)
 	public static boolean showRuleUpdate = false;
+
+	@Rule(
+			categories = {ROXY, SURVIVAL},
+			options = {"false", "night", "thunder", "night&thunder"}
+	)
+	public static String skipTime = "false";
 }

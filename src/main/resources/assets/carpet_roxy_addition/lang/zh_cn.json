@@ -16,5 +16,7 @@
 	"carpet.rule.deletePlayerCommand.name": "删除玩家指令",
 	"carpet.rule.deletePlayerCommand.desc": "使用/player <name> delete删除玩家档案",
 	"carpet.rule.showRuleUpdate.name": "展示规则更新",
-	"carpet.rule.showRuleUpdate.desc": "展示carpet拓展注册规则的更新"
+	"carpet.rule.showRuleUpdate.desc": "展示carpet拓展注册规则的更新",
+	"carpet.rule.skipTime.name": "跳过时间",
+	"carpet.rule.skipTime.desc": "模拟玩家睡觉来跳过夜晚或雷雨"
 }

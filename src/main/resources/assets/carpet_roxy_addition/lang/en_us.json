@@ -16,5 +16,7 @@
 	"carpet.rule.deletePlayerCommand.name": "delete player files command",
 	"carpet.rule.deletePlayerCommand.desc": "a command to delete player files using /player <name> delete",
 	"carpet.rule.showRuleUpdate.name": "show carpet rule updates",
-	"carpet.rule.showRuleUpdate.desc": "tell you what carpet additions has updated"
+	"carpet.rule.showRuleUpdate.desc": "tell you what carpet additions has updated",
+	"carpet.rule.skipTime.name": "skip time",
+	"carpet.rule.skipTime.desc": "simulate sleep to skip night or thunder"
 }

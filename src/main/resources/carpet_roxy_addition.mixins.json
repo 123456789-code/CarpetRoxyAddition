@@ -9,7 +9,8 @@
 		"createNetherPortalWhitelist.NetherPortalBlockMixin",
 		"neverKillNamedEntity.KillCommandMixin",
 		"tradeWithoutXp.VillagerMixin",
-		"weatherNeverCreateSnow.ServerLevelMixin"
+		"weatherNeverCreateSnow.ServerLevelMixin",
+		"skipTime.ServerLevelMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
