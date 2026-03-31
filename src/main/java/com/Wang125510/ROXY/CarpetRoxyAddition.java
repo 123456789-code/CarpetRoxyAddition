@@ -1,7 +1,7 @@
 package com.Wang125510.ROXY;
 
 import com.Wang125510.ROXY.config.ConfigManager;
-import com.Wang125510.ROXY.other.showRuleUpdate;
+import com.Wang125510.ROXY.other.showRuleUpdate.showRuleUpdate;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

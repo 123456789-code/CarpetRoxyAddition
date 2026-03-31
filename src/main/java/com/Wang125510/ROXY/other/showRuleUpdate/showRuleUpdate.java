@@ -1,4 +1,4 @@
-package com.Wang125510.ROXY.other;
+package com.Wang125510.ROXY.other.showRuleUpdate;
 
 import carpet.CarpetServer;
 import carpet.api.settings.CarpetRule;

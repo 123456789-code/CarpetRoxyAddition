@@ -36,5 +36,6 @@
 		"minecraft": "~1.21.11",
 		"java": ">=21",
 		"fabric-api": "*"
-	}
+	},
+	"accessWidener": "carpet_roxy_addition.accesswidener"
 }

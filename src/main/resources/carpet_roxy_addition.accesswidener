@@ -1,0 +1,5 @@
+accessWidener v2 named
+
+accessible field net/minecraft/world/entity/animal/equine/AbstractHorse MAX_MOVEMENT_SPEED F
+accessible field net/minecraft/world/entity/animal/equine/AbstractHorse MAX_JUMP_STRENGTH F
+accessible field net/minecraft/world/entity/animal/equine/AbstractHorse MAX_HEALTH F

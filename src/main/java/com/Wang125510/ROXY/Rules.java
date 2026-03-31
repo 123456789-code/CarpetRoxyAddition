@@ -75,4 +75,10 @@ public class Rules {
 			options = {"false", "night", "thunder", "night&thunder"}
 	)
 	public static String skipTime = "false";
+
+	@Rule(
+			categories = {ROXY, SURVIVAL, CREATIVE},
+			options = {"true", "false"}
+	)
+	public static boolean setBestHorseCommand = false;
 }

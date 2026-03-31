@@ -18,5 +18,7 @@
 	"carpet.rule.showRuleUpdate.name": "show carpet rule updates",
 	"carpet.rule.showRuleUpdate.desc": "tell you what carpet additions has updated",
 	"carpet.rule.skipTime.name": "skip time",
-	"carpet.rule.skipTime.desc": "simulate sleep to skip night or thunder"
+	"carpet.rule.skipTime.desc": "simulate sleep to skip night or thunder",
+	"carpet.rule.setBestHorseCommand.name": "set best horse command",
+	"carpet.rule.setBestHorseCommand.desc": "a command to set a horse to its best using /setbesthorse <entity>"
 }

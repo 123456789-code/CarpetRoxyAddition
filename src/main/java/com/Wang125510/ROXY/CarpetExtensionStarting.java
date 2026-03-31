@@ -3,6 +3,7 @@ package com.Wang125510.ROXY;
 import carpet.CarpetExtension;
 import carpet.CarpetServer;
 import carpet.api.settings.SettingsManager;
+import com.Wang125510.ROXY.command.BestHorseCommand;
 import com.mojang.brigadier.CommandDispatcher;
 import net.minecraft.commands.CommandBuildContext;
 import net.minecraft.commands.CommandSourceStack;
@@ -44,6 +45,7 @@ public class CarpetExtensionStarting implements CarpetExtension {
 	@Override
 	public void registerCommands(CommandDispatcher<CommandSourceStack> dispatcher, CommandBuildContext commandBuildContext) {
 		DeletePlayerCommand.register(dispatcher);
+		BestHorseCommand.register(dispatcher);
 	}
 
 	@Override

@@ -32,6 +32,7 @@ loom {
 		}
 	}
 
+	accessWidenerPath = file("src/main/resources/carpet_roxy_addition.accesswidener")
 }
 
 fabricApi {
