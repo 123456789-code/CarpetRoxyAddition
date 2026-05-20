@@ -10,7 +10,8 @@
 		"neverKillNamedEntity.KillCommandMixin",
 		"tradeWithoutXp.VillagerMixin",
 		"weatherNeverCreateSnow.ServerLevelMixin",
-		"skipTime.ServerLevelMixin"
+		"skipTime.ServerLevelMixin",
+		"reintroduceWaterShiftPlace.BucketItemMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

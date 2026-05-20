@@ -20,5 +20,7 @@
 	"carpet.rule.skipTime.name": "skip time",
 	"carpet.rule.skipTime.desc": "simulate sleep to skip night or thunder",
 	"carpet.rule.setBestHorseCommand.name": "set best horse command",
-	"carpet.rule.setBestHorseCommand.desc": "a command to set a horse to its best using /setbesthorse <entity>"
+	"carpet.rule.setBestHorseCommand.desc": "a command to set a horse to its best using /setbesthorse <entity>",
+	"carpet.rule.reintroduceWaterShiftPlace.name": "reintroduce water shift place",
+	"carpet.rule.reintroduceWaterShiftPlace.desc": "place water as 1.21- when you hold shift"
 }

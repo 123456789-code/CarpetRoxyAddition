@@ -20,5 +20,7 @@
 	"carpet.rule.skipTime.name": "跳过时间",
 	"carpet.rule.skipTime.desc": "模拟玩家睡觉来跳过夜晚或雷雨",
 	"carpet.rule.setBestHorseCommand.name": "设置马指令",
-	"carpet.rule.setBestHorseCommand.desc": "使用/setbesthorse <entity>让你的马变成最强"
+	"carpet.rule.setBestHorseCommand.desc": "使用/setbesthorse <entity>让你的马变成最强",
+	"carpet.rule.reintroduceWaterShiftPlace.name": "按住shift放水时使用旧版逻辑",
+	"carpet.rule.reintroduceWaterShiftPlace.desc": "在玩家按住shift放水时，防止含水方块而不是在毗邻位置放水"
 }

@@ -15,6 +15,7 @@ public class Rules {
 	public static final String DISPENSER = "dispenser";
 	public static final String SCARPET = "scarpet";
 	public static final String CLIENT = "client";
+	public static final String PORTING = "porting";
 
 	@Rule(
 			categories = {ROXY},
@@ -81,4 +82,10 @@ public class Rules {
 			options = {"true", "false"}
 	)
 	public static boolean setBestHorseCommand = false;
+
+	@Rule(
+			categories = {ROXY, SURVIVAL, CREATIVE, PORTING, CLIENT},
+			options = {"true", "false"}
+	)
+	public static boolean reintroduceWaterShiftPlace = false;
 }
