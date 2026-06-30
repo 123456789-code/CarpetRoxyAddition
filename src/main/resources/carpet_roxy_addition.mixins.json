@@ -11,7 +11,9 @@
 		"tradeWithoutXp.VillagerMixin",
 		"weatherNeverCreateSnow.ServerLevelMixin",
 		"skipTime.ServerLevelMixin",
-		"reintroduceWaterShiftPlace.BucketItemMixin"
+		"reintroduceWaterShiftPlace.BucketItemMixin",
+		"netherPortalLocFix.EntityMixin",
+		"netherPortalLocFix.PortalProcessorMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

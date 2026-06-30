@@ -22,5 +22,7 @@
 	"carpet.rule.setBestHorseCommand.name": "set best horse command",
 	"carpet.rule.setBestHorseCommand.desc": "a command to set a horse to its best using /setbesthorse <entity>",
 	"carpet.rule.reintroduceWaterShiftPlace.name": "reintroduce water shift place",
-	"carpet.rule.reintroduceWaterShiftPlace.desc": "place water as 1.21- when you hold shift"
+	"carpet.rule.reintroduceWaterShiftPlace.desc": "place water as 1.21- when you hold shift",
+	"carpet.rule.netherPortalLocFix.name": "nether portal location fix",
+	"carpet.rule.netherPortalLocFix.desc": "when mobs go through nether portal, spawn location will be the same as in 1.20-"
 }

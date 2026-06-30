@@ -88,4 +88,10 @@ public class Rules {
 			options = {"true", "false"}
 	)
 	public static boolean reintroduceWaterShiftPlace = false;
+
+	@Rule(
+			categories = {ROXY, SURVIVAL, PORTING},
+			options = {"off", "weak", "on", "radical"}
+	)
+	public static String netherPortalLocFix = "off";
 }

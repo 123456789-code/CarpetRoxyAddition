@@ -22,5 +22,7 @@
 	"carpet.rule.setBestHorseCommand.name": "设置马指令",
 	"carpet.rule.setBestHorseCommand.desc": "使用/setbesthorse <entity>让你的马变成最强",
 	"carpet.rule.reintroduceWaterShiftPlace.name": "按住shift放水时使用旧版逻辑",
-	"carpet.rule.reintroduceWaterShiftPlace.desc": "在玩家按住shift放水时，防止含水方块而不是在毗邻位置放水"
+	"carpet.rule.reintroduceWaterShiftPlace.desc": "在玩家按住shift放水时，防止含水方块而不是在毗邻位置放水",
+	"carpet.rule.netherPortalLocFix.name": "地狱门传送位置回退",
+	"carpet.rule.netherPortalLocFix.desc": "让地狱门传送位置的计算逻辑回退至1.20-，从而可以构建斜恶魂塔和堡垒z字门等"
 }

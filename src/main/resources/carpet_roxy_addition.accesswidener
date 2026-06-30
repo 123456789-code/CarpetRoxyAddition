@@ -3,3 +3,5 @@ accessWidener v2 named
 accessible field net/minecraft/world/entity/animal/equine/AbstractHorse MAX_MOVEMENT_SPEED F
 accessible field net/minecraft/world/entity/animal/equine/AbstractHorse MAX_JUMP_STRENGTH F
 accessible field net/minecraft/world/entity/animal/equine/AbstractHorse MAX_HEALTH F
+accessible class net/minecraft/world/entity/Entity$Movement
+accessible method net/minecraft/world/entity/Entity onInsideBlock (Lnet/minecraft/world/level/block/state/BlockState;)V
