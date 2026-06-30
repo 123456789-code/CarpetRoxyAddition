@@ -10,12 +10,10 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.InsideBlockEffectApplier;
 import net.minecraft.world.entity.PortalProcessor;
-import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.AABB;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Shadow;
-import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
@@ -54,10 +52,28 @@ public class EntityMixin {
 
 		if (self.level().hasChunksAt(min, max)) {
 			BlockPos.MutableBlockPos pos = new BlockPos.MutableBlockPos();
+			boolean hasPortal = false;
 			for (int x = min.getX(); x <= max.getX(); x++) {
 				for (int y = min.getY(); y <= max.getY(); y++) {
 					for (int z = min.getZ(); z <= max.getZ(); z++) {
 						if (!self.isAlive()) {
+							return;
+						}
+						pos.set(x, y, z);
+						if (self.level().getBlockState(pos).is(Blocks.NETHER_PORTAL)) {
+							hasPortal = true;
+						}
+					}
+				}
+			}
+			if (!hasPortal) {
+				return;
+			}
+			for (int x = min.getX(); x <= max.getX(); x++) {
+				for (int y = min.getY(); y <= max.getY(); y++) {
+					for (int z = min.getZ(); z <= max.getZ(); z++) {
+						if (!self.isAlive()) {
+							cir.cancel();
 							return;
 						}
 						pos.set(x, y, z);
